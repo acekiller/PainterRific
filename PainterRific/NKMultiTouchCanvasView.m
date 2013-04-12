@@ -148,6 +148,8 @@ static const CGFloat kMinDistanceSquared = 4;
 
 - (void) touchesMoved:(NSSet *) touches withEvent:(UIEvent *) event
 {
+    // TODO: use operation to calculate and draw
+    
 	for (UITouch *touch in touches)
 	{
         CGPoint previousPoint = [touch previousLocationInView:self];
